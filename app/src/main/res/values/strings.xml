@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">inventory_app</string>
+    <string name="category_overview">Overview</string>
+    <string name="hint_item_name">Item name</string>
+    <string name="hint_item_details">Details</string>
+    <string name="category_qty">Quantity</string>
+    <string name="category_measurement">Measurement</string>
+    <string name="hint_item_weight">Weight</string>
+    <string name="unit_item_weight">Kg</string>
 </resources>
