@@ -28,6 +28,14 @@ public class EditorActivity extends AppCompatActivity {
 
     private void SetupSpinner(){
 
-        ArrayAdapter mSpinnerAdaptor =ArrayAdapter.createFromResource(this, )
+        ArrayAdapter mSpinnerAdaptor =ArrayAdapter.createFromResource(this,
+                R.array.Qty_array,android.R.layout.simple_spinner_item);
+
+        mSpinnerAdaptor.setDropDownViewResource(android.R.layout.simple_dropdown_item_1line);
+
+        Qty_Spinner.setAdapter(mSpinnerAdaptor);
+
+
+
     }
 }

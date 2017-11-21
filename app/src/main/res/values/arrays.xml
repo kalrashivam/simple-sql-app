@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <item name="Qty_array"> </item>
+    <string-array name="Qty_array">
+    <item name="<10">less than 10</item>
+    <item name=">=10">greater than or equal to 10</item>
+    <item name="unknown">Unknown</item>
+    </string-array>
 </resources>
